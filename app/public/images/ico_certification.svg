@@ -1,0 +1,52 @@
+<svg id="certification_ico" data-name="certification ico" xmlns="http://www.w3.org/2000/svg" width="182" height="126" viewBox="0 0 182 126">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ecf1f5;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #172d42;
+      }
+
+      .cls-1, .cls-6 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-6, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-7 {
+        stroke-width: 1px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #e34537;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        fill: #172d42;
+      }
+
+      .cls-6, .cls-7 {
+        stroke: #e34537;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_6_copy_2" data-name="Rectangle 6 copy 2" class="cls-1" x="1" y="16" width="180" height="110"/>
+  <rect id="Rectangle_6_copy" data-name="Rectangle 6 copy" class="cls-2" x="11" y="26" width="160" height="90"/>
+  <path class="cls-3" d="M553,1156h8v10l-3.875-6L553,1166v-10Z" transform="translate(-464 -1116)"/>
+  <rect class="cls-4" x="68" y="61" width="50" height="2"/>
+  <rect id="Rectangle_8_copy_5" data-name="Rectangle 8 copy 5" class="cls-4" x="138" y="101" width="20" height="2"/>
+  <rect id="Rectangle_8_copy" data-name="Rectangle 8 copy" class="cls-5" x="28" y="72" width="130" height="2"/>
+  <rect id="Rectangle_8_copy_2" data-name="Rectangle 8 copy 2" class="cls-5" x="28" y="78" width="130" height="2"/>
+  <rect id="Rectangle_8_copy_3" data-name="Rectangle 8 copy 3" class="cls-5" x="28" y="84" width="130" height="2"/>
+  <rect id="Rectangle_8_copy_4" data-name="Rectangle 8 copy 4" class="cls-5" x="28" y="90" width="130" height="2"/>
+  <circle class="cls-6" cx="93" cy="20" r="20"/>
+  <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-7" cx="93" cy="20" r="13"/>
+</svg>

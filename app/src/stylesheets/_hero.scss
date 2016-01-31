@@ -1,0 +1,66 @@
+// ########################
+// SECTION HERO
+// ########################
+
+.hero{
+	padding-top: 0;
+	background-color:$dark-blue;
+	height:800px;
+	border:10px solid white;
+	@include box-sizing(border-box);
+
+	h1{
+		color:white;
+	}
+	h4{
+		font-family: 'Roboto Slab', sans-serif;
+		font-size:18px;
+		line-height: 32px;
+		margin-top:30px;
+		color:$grey-txt;
+		font-weight: 100;
+		margin-bottom:40px;
+	}
+
+	.btn-contact{
+		background:transparent;
+		color:white;
+		border:1px solid $stroke2;
+	}
+
+	.container{
+		margin-top:140px;
+	}
+}
+
+.hero__logo{
+	width:150px;
+}
+
+.topbar{
+	padding-top:10px;
+
+	.container-fluid{
+		padding:20px;
+	}
+
+	ul li{
+		font-size:18px;
+		color:white;
+		margin-left:30px;
+		a{
+			color:white;
+			text-decoration: none;
+			font-size:16px;
+			line-height:34px;
+			&:hover{
+				color:$orange;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.typo{
+
+}

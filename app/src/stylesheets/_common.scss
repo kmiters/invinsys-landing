@@ -1,0 +1,43 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+section{
+	.container-fluid{
+		padding-top:80px;
+		padding-bottom:80px;
+	}
+}
+
+
+// ########################
+// BUTTONS
+// ########################
+
+.btn-invinsys{
+	border:none;
+	text-transform: uppercase;
+	padding:10px 15px;
+	font-size:17px;
+	font-weight:700;
+	@include border-radius(10px);
+}
+
+.btn-services{
+	background-color:$orange;
+	color:white;
+	&:hover{
+		background-color: darken($orange, 10%);
+		color:white;
+	}
+}
+
+.btn-contact{
+	border:1px solid $stroke;
+	color:$dark-blue;
+	&:hover{
+		background-color:$stroke;
+		color:$dark-blue;
+		border:1px solid $stroke;
+	}
+}
