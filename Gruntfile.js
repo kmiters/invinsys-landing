@@ -59,6 +59,18 @@ module.exports = function(grunt) {
                     environment: 'production'
                 }
             },
+        },
+        'ftp-deploy': {
+          build: {
+          auth: {
+            host: 'ftp.invinsys.com',
+            port: 21,
+            authKey: 'key1'
+          },
+            src: '/Users/kmita/dev/invinsys2/app/public',
+            dest: '/public_html/invinsys2',
+            exclusions: []
+          }
         }
     });
 
@@ -66,10 +78,12 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-ftp-deploy');
 
     // Default task(s).
     grunt.registerTask('default', ['connect:livereload', 'compass:dev', 'watch']);
     // prod build
-    grunt.registerTask('prod', ['compass:prod']);
+    grunt.registerTask('deploy', ['ftp-deploy']);
+    grunt.registerTask('prod', ['compass:prod', 'ftp-deploy']);
 
 };

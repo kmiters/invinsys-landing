@@ -1,0 +1,14 @@
+nav.second__navbar{
+  background-color:red;
+  height:50px;
+  width:100%;
+  position:fixed;
+  top:-50px;
+  x-index:10;
+  @include transition-property(top);
+  @include transition-duration(1s);
+  @include transition-timing-function(ease-in);
+}
+.navbar-is-in{
+  top:0;
+}

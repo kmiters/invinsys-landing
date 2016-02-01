@@ -3,10 +3,22 @@
 // ########################
 
 .testimonials__element{
-  border:1px solid red;
-  padding:20px;
+  padding:40px 20px;
+  @include box-sizing(border-box);
   text-align: center;
+  // height:80px;
+  // display: inline-block;
+
+  img{
+    vertical-align: middle;
+    max-height:50px;
+    max-width: 140px;
+  }
+  &:hover{
+  box-shadow: 0px 0px 25px 0px rgba(131, 150, 175, 0.23);
+  }
 }
+
 .testimonials__container{
   padding-left:100px;
   padding-right: 100px;
