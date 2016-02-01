@@ -7,4 +7,12 @@ footer{
   .container-fluid{
     background-color: $light-bg;
   }
+  .container-fluid{
+    padding:40px;
+  }
+
+  ul li a{
+    color:$dark-header;
+    padding-left:40px;
+  }
 }
