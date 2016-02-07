@@ -3608,6 +3608,22 @@ h3 {
   margin-bottom: 80px;
 }
 
+/* line 32, ../../src/stylesheets/_typography.scss */
+.section__bullet {
+  margin-bottom: 30px;
+}
+/* line 34, ../../src/stylesheets/_typography.scss */
+.section__bullet h5 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+/* line 38, ../../src/stylesheets/_typography.scss */
+.section__bullet p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
 /* line 1, ../../src/stylesheets/_common.scss */
 body {
   font-family: 'Roboto', sans-serif;
@@ -3690,12 +3706,14 @@ nav.second__navbar {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 }
-/* line 12, ../../src/stylesheets/_hero.scss */
+/* line 14, ../../src/stylesheets/_hero.scss */
 .hero h1 {
   color: white;
 }
-/* line 15, ../../src/stylesheets/_hero.scss */
+/* line 17, ../../src/stylesheets/_hero.scss */
 .hero h4 {
   font-family: 'Roboto Slab', sans-serif;
   font-size: 18px;
@@ -3705,47 +3723,96 @@ nav.second__navbar {
   font-weight: 100;
   margin-bottom: 40px;
 }
-/* line 25, ../../src/stylesheets/_hero.scss */
+/* line 27, ../../src/stylesheets/_hero.scss */
 .hero .btn-contact {
   background: transparent;
   color: white;
   border: 1px solid #6b7886;
 }
-/* line 31, ../../src/stylesheets/_hero.scss */
-.hero .container {
-  margin-top: 140px;
-}
 
-/* line 36, ../../src/stylesheets/_hero.scss */
+/* line 38, ../../src/stylesheets/_hero.scss */
 .hero__logo {
   width: 150px;
 }
 
-/* line 40, ../../src/stylesheets/_hero.scss */
+/* line 42, ../../src/stylesheets/_hero.scss */
 .topbar {
   padding-top: 10px;
 }
-/* line 43, ../../src/stylesheets/_hero.scss */
+/* line 45, ../../src/stylesheets/_hero.scss */
 .topbar .container-fluid {
   padding: 20px;
 }
-/* line 47, ../../src/stylesheets/_hero.scss */
+/* line 49, ../../src/stylesheets/_hero.scss */
 .topbar ul li {
   font-size: 18px;
   color: white;
   margin-left: 30px;
 }
-/* line 51, ../../src/stylesheets/_hero.scss */
+/* line 53, ../../src/stylesheets/_hero.scss */
 .topbar ul li a {
   color: white;
   text-decoration: none;
   font-size: 16px;
   line-height: 34px;
 }
-/* line 56, ../../src/stylesheets/_hero.scss */
+/* line 58, ../../src/stylesheets/_hero.scss */
 .topbar ul li a:hover {
   color: #e34537;
   text-decoration: none;
+}
+
+/* line 66, ../../src/stylesheets/_hero.scss */
+#heroCanvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+/* line 73, ../../src/stylesheets/_hero.scss */
+.hero__figure {
+  position: absolute;
+}
+
+/* line 77, ../../src/stylesheets/_hero.scss */
+.hero__figure-top1 {
+  top: 0;
+  left: 30%;
+  width: 246px;
+  height: 158px;
+}
+
+/* line 84, ../../src/stylesheets/_hero.scss */
+.hero__figure-right1 {
+  right: -60px;
+  top: 20%;
+  width: 308px;
+  height: 381px;
+}
+
+/* line 91, ../../src/stylesheets/_hero.scss */
+.hero__figure-left1 {
+  left: -80px;
+  top: 20%;
+  width: 300px;
+  height: 346px;
+}
+
+/* line 98, ../../src/stylesheets/_hero.scss */
+.hero__figure-bottom1 {
+  bottom: -150px;
+  left: 10%;
+  width: 368px;
+  height: 273px;
+}
+
+/* line 105, ../../src/stylesheets/_hero.scss */
+.hero__figure-bottom2 {
+  bottom: -120px;
+  right: 0;
+  width: 606px;
+  height: 280px;
 }
 
 /* line 6, ../../src/stylesheets/_services.scss */
@@ -3810,14 +3877,36 @@ section.network {
 /* line 9, ../../src/stylesheets/_network.scss */
 section.network .container-fluid {
   background-color: #e34537;
+  padding-bottom: 0;
 }
-/* line 13, ../../src/stylesheets/_network.scss */
+/* line 14, ../../src/stylesheets/_network.scss */
 section.network h2 {
   color: white;
 }
-/* line 16, ../../src/stylesheets/_network.scss */
+/* line 17, ../../src/stylesheets/_network.scss */
 section.network h3 {
   color: #030e19;
+  margin-bottom: 100px;
+}
+
+/* line 22, ../../src/stylesheets/_network.scss */
+.network__bullets {
+  padding-right: 30px;
+}
+
+/* line 26, ../../src/stylesheets/_network.scss */
+.bullet-network h5 {
+  color: white;
+}
+
+/* line 31, ../../src/stylesheets/_network.scss */
+.network__map {
+  background-size: cover;
+}
+/* line 34, ../../src/stylesheets/_network.scss */
+.network__map img {
+  width: 100%;
+  height: 100%;
 }
 
 /* line 6, ../../src/stylesheets/_cta.scss */

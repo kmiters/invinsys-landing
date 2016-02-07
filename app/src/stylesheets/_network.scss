@@ -8,6 +8,7 @@ section.network{
 
   .container-fluid{
     background-color: $orange;
+    padding-bottom:0;
   }
 
   h2{
@@ -15,5 +16,23 @@ section.network{
   }
   h3{
     color:$dark-header;
+    margin-bottom:100px;
+  }
+}
+.network__bullets{
+  padding-right:30px;
+}
+.bullet-network{
+  h5{
+    color:white;
+  }
+}
+
+.network__map{
+  // background: url("../images/network_map.png");
+  background-size:cover;
+  img{
+    width:100%;
+    height: 100%;
   }
 }

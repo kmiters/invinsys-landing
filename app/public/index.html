@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js" ></script>
+
 </head>
 <body>
 
@@ -33,6 +35,14 @@
 </nav>
 
 <section class="hero">
+
+	<img src="images/top1.svg" alt="" class="hero__figure hero__figure-top1">
+	<img src="images/right1.svg" alt="" class="hero__figure hero__figure-right1">
+	<img src="images/left1.svg" alt="" class="hero__figure hero__figure-left1">
+	<img src="images/bottom1.svg" alt="" class="hero__figure hero__figure-bottom1">
+	<img src="images/bottom2.svg" alt="" class="hero__figure hero__figure-bottom2">
+
+
 	<nav class="topbar">
 		<div class="container-fluid">
 			<div class="row">
@@ -54,7 +64,7 @@
 		</div>
 	</nav>
 
-	<div class="container">
+	<div class="container hero__typography">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 text-center typo">
 				<h1>Business innovations on demand.</h1>
@@ -213,7 +223,34 @@
 			</div>
 		</div>
 
+		<div class="row">
+			<div class="col-md-3 col-md-offset-2 network__bullets">
+
+				<div class="section__bullet bullet-network">
+					<h5>Trusted innovators</h5>
+					<p>Phasellus placerat ac ex euismod pellentesque. Integer commodo viverra elit, non ultrices dolor vulputate eu.</p>
+				</div>
+
+				<div class="section__bullet bullet-network">
+					<h5>Innovation ecosystem</h5>
+					<p>Phasellus placerat ac ex euismod pellentesque. Integer commodo viverra elit, non ultrices dolor vulputate eu.</p>
+				</div>
+
+				<div class="section__bullet">
+					<a href="#" class="btn btn-default btn-invinsys btn-contact">Become a partner</a>
+				</div>
+
+			</div>
+
+			<div class="col-md-7 network__map">
+				<img src="images/network_map.png" alt="">
+			</div>
+
+
+
+		</div>
 	</div>
+
 </section>
 
 <!-- ##################################
@@ -235,6 +272,7 @@
 			<div class="col-md-2">
 				<a href="#" class="btn btn-default btn-invinsys btn-contact">Contact us</a>
 			</div>
+
 		</div>
 
 	</div>
@@ -262,6 +300,6 @@
 		</div>
 	</div>
 </footer>
-
+<script type="text/javascript" src="js/app.js" canvas="heroCanvas"></script>
 </body>
 </html>
